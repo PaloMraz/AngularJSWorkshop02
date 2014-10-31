@@ -1,0 +1,2 @@
+- Toto je projekt zo seminára 29. 10. 2014.
+- Všetok client-side kód je vo foldri App.

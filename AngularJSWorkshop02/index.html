@@ -1,0 +1,24 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" ng-app="app">
+<head>
+  <title>Chapter 16</title>
+
+</head>
+<body>
+  <div data-bsp-heading="Chapter 16 - Directives"></div>
+
+  <div data-bsp-static></div>
+
+  <div ng-controller="Controllers.Home">
+    <div>Loaded {{vm.cities.length}} cities</div>
+    <div data-bsp-clicker data-on-click="vm.loadCities()"></div>
+  </div>
+
+  <div ng-view>
+  </div>
+
+  <script src="scripts/angular.js"></script>
+  <script src="scripts/angular-route.js"></script>
+  <script src="out.js"></script>
+</body>
+</html>

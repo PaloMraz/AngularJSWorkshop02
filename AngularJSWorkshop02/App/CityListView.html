@@ -1,0 +1,13 @@
+﻿<div>
+  <h2>List of <span data-bsp-city-count="vm.cities.length"></span> cities</h2>
+  <button ng-click="vm.loadCities()" ng-disabled="!vm.isReady()">Refresh</button>
+  <button ng-click="vm.clearCities()" ng-disabled="!vm.isReady()">Clear</button>
+
+  <div ng-repeat="c in vm.cities">
+    <div>
+      {{c.country}} - {{c.city}}
+      <div data-bsp-current-time-with-function>
+      </div>
+    </div>
+  </div>
+</div>
