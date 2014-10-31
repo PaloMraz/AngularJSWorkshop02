@@ -80,7 +80,9 @@
     <Content Include="packages.config" />
     <Content Include="scripts\angular-route.min.js.map" />
     <Content Include="Data\cities_with_countries.txt" />
-    <Content Include="Readme.md" />
+    <Content Include="..\Readme.md">
+      <Link>Readme.md</Link>
+    </Content>
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
